@@ -14,6 +14,7 @@
     $newEvent->setEventPresenter("Jeremy");
     $newEvent->setEventDate("October 20, 2021");
     $newEvent->setEventTime("11:00 AM");
+    
     // test name getter
     echo $newEvent->getEventId() . "</br>";    
     echo $newEvent->getEventName() . "</br>";  
@@ -21,7 +22,5 @@
     echo $newEvent->getEventPresenter() . "</br>";
     echo $newEvent->getEventDate() . "</br>";
     echo $newEvent->getEventTime() . "</br>";
-
-
 
 ?>

@@ -7,17 +7,36 @@
 class Event{
     
     // comments
+
     // properties
+    public $eventDate;
+    public $eventDescription;
     public $eventId;
     public $eventName;
-    public $eventDescription;
     public $eventPresenter;
     public $eventTime;
-    public $eventDate;
-
     
-    // constructor method - skip
     // setters and getters
+
+    public function getEventDate()
+    {
+        return $this->eventDate;
+    }
+
+    public function setEventDate($ineventDate)
+    {
+        $this->eventDate = $ineventDate;
+
+        return $this;
+    }
+
+    function setEventDescription($inDescription){
+        $this->eventDescription = $inDescription;
+    }
+
+    function getEventDescription(){
+        return $this->eventDescription;
+    }
 
     function setEventId($inId){
         $this->eventId = $inId;
@@ -33,15 +52,8 @@ class Event{
 
     function getEventName(){
         return $this->eventName;
-    }
-    
-    function setEventDescription($inDescription){
-        $this->eventDescription = $inDescription;
-    }
+    } 
 
-    function getEventDescription(){
-        return $this->eventDescription;
-    }
     public function getEventPresenter()
     {
         return $this->eventPresenter;
@@ -52,7 +64,7 @@ class Event{
         $this->eventPresenter = $inEventPresenter;
 
         return $this;
-    }  
+    } 
 
     public function getEventTime()
     {
@@ -66,17 +78,7 @@ class Event{
         return $this;
     }
  
-    public function getEventDate()
-    {
-        return $this->eventDate;
-    }
 
-    public function setEventDate($ineventDate)
-    {
-        $this->eventDate = $ineventDate;
-
-        return $this;
-    }
     
     // processing methods
 
