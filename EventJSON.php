@@ -83,7 +83,7 @@
         </p>
 
         <p class="text-center">
-            <a href="../../wdv341.php">PHP Homework Page</a>    <!-- Homework page link -->
+            <a href="../wdv341.php">PHP Homework Page</a>    <!-- Homework page link -->
         </p>
         </footer>
 
